@@ -4,11 +4,19 @@
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link" routerLink="books">Livres</a>
       </li>
-      <li class="nav-item" routerLinkActive="active">
+      <li class="nav-item" 
+          routerLinkActive="active" 
+          *ngIf="!isAuth">
         <a class="nav-link" routerLink="auth/signup">Créer un compte</a>
       </li>
-      <li class="nav-item" routerLinkActive="active">
+      <li class="nav-item" routerLinkActive="active" *ngIf="!isAuth">
         <a class="nav-link" routerLink="auth/signin">Connexion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"
+           style="cursor: pointer;" 
+           *ngIf="isAuth" 
+           (click)="onSignOut()">Déconnexion</a>
       </li>
     </ul>
   </div>
