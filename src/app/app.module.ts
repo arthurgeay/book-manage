@@ -13,6 +13,15 @@ import { BooksService } from './services/books.service';
 import { AuthGuardService } from './services/auth-guard.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  { path: 'auth/signup', component: SignupComponent },
+  { path: 'auth/signin', component: SigninComponent },
+  { path: 'books', component: BookListComponent },
+  { path: 'books/new', component: BookFormComponent },
+  { path: 'books/view/:id', component: SingleBookComponent }
+];
 
 @NgModule({
   declarations: [
@@ -28,7 +37,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
     AuthService,
