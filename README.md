@@ -1,6 +1,7 @@
 # 📖 Book Manage
 
 **Book Manage** est une application web dévéloppé avec **Angular** qui permet de gérer les livres que vous avez.
+> Ce projet a été réalisé dans le cadre du cours Openclassrooms ([Développez des applications web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-avec-angular))
 
 ## Fonctionnalités
 - Voir la liste des livres
