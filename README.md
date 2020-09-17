@@ -1,27 +1,42 @@
-# BookManage
+# 📖 Book Manage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+**Book Manage** est une application web dévéloppé avec **Angular** qui permet de gérer ses livres.
 
-## Development server
+## Fonctionnalités
+- Voir la liste des livres
+- Authentification / Inscription
+- Ajouter un livre dans le système
+- Supprimer un livre
+- Ajouter une image à un livre
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies utilisées
 
-## Code scaffolding
+- **[Angular](https://angular.io/)** - Framework JS
+- **[Typescript](https://www.typescriptlang.org/)** - Langage de programmation
+- **[Firebase](https://firebase.google.com/?hl=fr)** - Service cloud d'hébergement
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+```sh
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Usage
 
-## Running unit tests
+```sh
+npm run start
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tests
 
-## Running end-to-end tests
+```sh
+npm run test
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Auteur
 
-## Further help
+👤 **Arthur Geay**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Website: https://arthurgeay.fr
+* Twitter: [@arthurgeay](https://twitter.com/arthurgeay)
+* Github: [@arthurgeay](https://github.com/arthurgeay)
